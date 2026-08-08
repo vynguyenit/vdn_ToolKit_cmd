@@ -47,4 +47,4 @@ Tất cả các chức năng đều được tích hợp trong một file duy nh
 **Cách 1 (nhanh nhất – khuyến nghị):**  
 Mở **PowerShell** với quyền Administrator và chạy lệnh:
 ```powershell
-irm https://raw.githubusercontent.com/vynguyenit/vdn_ToolKit/main/vdn_ToolKit.cmd | iex
+irm https://raw.githubusercontent.com/vynguyenit/vdn_ToolKit_cmd/main/vdn_ToolKit.cmd | iex
