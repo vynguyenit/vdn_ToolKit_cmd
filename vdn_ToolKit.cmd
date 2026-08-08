@@ -17,7 +17,7 @@ set "TOOLKIT_DIR=%USERPROFILE%\tempkit\vdn_ToolKit_%RANDOM%"
 mkdir "%TOOLKIT_DIR%" 2>nul
 
 :: Tải các module từ GitHub (thay bằng repo của bạn)
-set "REPO_URL=https://raw.githubusercontent.com/vynguyenit/vdn_ToolKit/main"
+set "REPO_URL=https://raw.githubusercontent.com/vynguyenit/vdn_ToolKit_cmd/main"
 powershell -Command "Invoke-WebRequest -Uri '%REPO_URL%/modules/system_info.ps1' -OutFile '%TOOLKIT_DIR%\system_info.ps1'" >nul 2>&1
 powershell -Command "Invoke-WebRequest -Uri '%REPO_URL%/modules/software_install.ps1' -OutFile '%TOOLKIT_DIR%\software_install.ps1'" >nul 2>&1
 powershell -Command "Invoke-WebRequest -Uri '%REPO_URL%/modules/system_tweaks.ps1' -OutFile '%TOOLKIT_DIR%\system_tweaks.ps1'" >nul 2>&1
